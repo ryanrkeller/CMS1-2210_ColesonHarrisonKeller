@@ -1,10 +1,15 @@
 1. What is a computer system?
+- A computer system is a combination of pieces of software and hardware that communicate with each other to run instructions.
 2. What are some of the parts of a computer system?
+- The main parts of a computer system are the CPU, the Input/Output System, and the Main Memory.
 3. What is the difference between a compiled language and an intepreted language?
+- A compiled language gets fully traslated to machine code during compilation, while an interpreted language is translated to machine code line-by-line as the program runs.
 4. Is C a compiled language?
+- Yes, C is a compiled language.
 5. Who invented the C language?
+- C was made by Dennis Ritchie.
 6. How long has C been in use?
-
+- C has been in use since the early 70s.
 7. Is a compiler a translator?
 - Yes. A compiler translates code to assembly langugage.
 8. Is an assembler a translator?
