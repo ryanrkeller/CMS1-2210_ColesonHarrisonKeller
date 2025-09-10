@@ -1,0 +1,42 @@
+
+
+Evaluation Criteria ~ homework01
+CMSI 2210 Section 01 Fall 2025
+=================================
+
+SAYHELLO.C
+   file exists          1/1 pt.
+   file compiles        1/1 pt.
+   program runs         1/1 pt.
+   prompts user         1/1 pt.
+   reads input          1/1 pt.
+   displays hello name  1/1 pt.
+SAYHELLO.ASM [not required so full points]
+   file exists          1/1 pt.
+   file assembles       1/1 pt.
+   programruns          1/1 pt.
+GENERAL
+   code style           1/1 pt.
+
+Total possible points 10
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 10/10 which is 100% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Nice work here, looks like everything is working for you.
+
+Excellent that you found the 'fgets()' function to use so you don't get the
+pesky warning.
+
+Nice also that you got the assembly code for the ARM/Mx processor!  Did you
+know that already, or did you look it up?  If you got it from the Internet or
+you asked ChatGPT or something else, you really need to cide where you got
+the code from.  I talked about that in the first week of class.  Be sure you
+put that in the comments so that you won't be plagiarizing!
+
+Otherwise, off to a great start!
