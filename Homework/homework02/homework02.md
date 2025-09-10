@@ -29,8 +29,16 @@
 14. What is a register?
 - Registers are internal storage locations within the CPU. They are used to hold the address of the next instruction, data for an instruction from memory, or the results of an operation.
 15. What is one difference between Application software and System software?
+- Applications are programs like games and other types of apps that the user directly interacts with. System software is what the applications use to run. 
 16. Is the phrase cmp rdi, rsi machine language?
+- No, it is assembly language
 17. How many buses are included in the system bus?
+- Data bus
+- Address bus
+- Control bus
 18. What is the decimal value of 100101112?
+- 151
 19. What is the decimal value of 111111112?
+- 255
 20. What is the largest unsigned integer value that will fit into 16 bits?
+- 65,535
