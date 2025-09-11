@@ -1,3 +1,4 @@
+# Classwork 2, converting between binary and decimals
 
 - Convert `101₂` to decimal = 5
 - Convert `1010101₂` to decimal = 85
