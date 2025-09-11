@@ -1,3 +1,6 @@
+# Homework 2, answering questions
+# (Info sourced from course site https://bjohnson.lmu.build/cmsi2210web/)
+
 1. What is a computer system?
 - A computer system is a combination of pieces of software and hardware that communicate with each other to run instructions.
 
