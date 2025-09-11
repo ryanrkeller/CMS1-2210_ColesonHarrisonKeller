@@ -7,7 +7,7 @@
 2. What are some of the parts of a computer system?
 - The main parts of a computer system are the CPU, the Input/Output System, and the Main Memory.
 
-3. What is the difference between a compiled language and an intepreted language?
+3. What is the difference between a compiled language and an interpreted language?
 - A compiled language gets fully traslated to machine code during compilation, while an interpreted language is translated to machine code line-by-line as the program runs.
 
 4. Is C a compiled language?
@@ -20,7 +20,7 @@
 - C has been in use since the early 70s.
 
 7. Is a compiler a translator?
-- Yes. A compiler translates code to assembly langugage.
+- Yes. A compiler translates code to assembly language.
 
 8. Is an assembler a translator?
 - Yes. An assembler translates code into machine language. 
@@ -31,7 +31,7 @@
 10. What does the C function atof() do?
 - The C function atof() converts a string of characters into a floating point number (a double).
 
-11. What are the bottom two layers of a computer system? Give a brief desciption of each.
+11. What are the bottom two layers of a computer system? Give a brief description of each.
 - Digital logic is the bottom layer. It is the physical hardware that all computer operations run on. 
 It is implemented by gates, circuitry, motherboards, and integrated circuits.
 - Control is the second layer. It contains the microcode (which can be firmware or hardwiring) that uses the hardware from the layer below it to execute instructions.
@@ -48,7 +48,7 @@ It is implemented by gates, circuitry, motherboards, and integrated circuits.
 - Registers are internal storage locations within the CPU. They are used to hold the address of the next instruction, data for an instruction from memory, or the results of an operation.
 
 15. What is one difference between Application software and System software?
-- Applications are programs like games and other types of apps that the user directly interacts with. System software is what the applications use to run. 
+- Applications are programs like games and other types of applications that the user directly interacts with. System software is what the applications use to run. 
 
 16. Is the phrase cmp rdi, rsi machine language?
 - No, it is assembly language
