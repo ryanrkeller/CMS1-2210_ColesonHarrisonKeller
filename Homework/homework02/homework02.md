@@ -5,16 +5,16 @@
 - A computer system is a combination of pieces of software and hardware that communicate with each other to run instructions.
 
 2. What are some of the parts of a computer system?
-- The main parts of a computer system are the CPU, the Input/Output System, and the Main Memory.
+- The main parts of a computer system are the CPU, the input/output system, and the main memory.
 
 3. What is the difference between a compiled language and an interpreted language?
-- A compiled language gets fully traslated to machine code during compilation, while an interpreted language is translated to machine code line-by-line as the program runs.
+- A compiled language gets fully translated to machine code during compilation, while an interpreted language is translated to machine code line-by-line as the program runs.
 
 4. Is C a compiled language?
 - Yes, C is a compiled language.
 
 5. Who invented the C language?
-- C was made by Dennis Ritchie.
+- C was created by Dennis Ritchie. 
 
 6. How long has C been in use?
 - C has been in use since the early 70s.
@@ -29,7 +29,7 @@
 - The command to list the contents of a directory in a Mac terminal window is "ls".
 
 10. What does the C function atof() do?
-- The C function atof() converts a string of characters into a floating point number (a double).
+- The C function atof() converts a string of characters into a floating-point number (a double).
 
 11. What are the bottom two layers of a computer system? Give a brief description of each.
 - Digital logic is the bottom layer. It is the physical hardware that all computer operations run on. 
@@ -42,7 +42,7 @@ It is implemented by gates, circuitry, motherboards, and integrated circuits.
   3. Execute: The Arithmetic Logic Unit (ALU) executes the decoded instruction.
 
 13. What is the purpose of an ALU?
-- The purpose of the Arithmetic Logic Unit (ALU) is to perform operations on integers, including mathematical and bit-wise operations.
+- The purpose of the Arithmetic Logic Unit (ALU) is to perform operations on integers, including mathematical and bitwise operations.
 
 14. What is a register?
 - Registers are internal storage locations within the CPU. They are used to hold the address of the next instruction, data for an instruction from memory, or the results of an operation.
@@ -51,7 +51,7 @@ It is implemented by gates, circuitry, motherboards, and integrated circuits.
 - Applications are programs like games and other types of applications that the user directly interacts with. System software is what the applications use to run. 
 
 16. Is the phrase cmp rdi, rsi machine language?
-- No, it is assembly language
+- No, it is assembly language.
 
 17. How many buses are included in the system bus?
 - Data bus
