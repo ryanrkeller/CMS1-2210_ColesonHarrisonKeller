@@ -71,13 +71,13 @@ The negation of 16-bit word 0xB00F is:
 
 The negation of 16-bit word 0x2232 is:
 
-The negation of 16-bit word 0x8000 is:   /.,mnbvcxzsdfghjkl;
+The negation of 16-bit word 0x8000 is: 0x8000
 
-The negation of 32-bit word 0xFFF329BA is:
+The negation of 32-bit word 0xFFF329BA is: 0x000CD646
 
-Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal:
+Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal: 240
 
-Hex C0FF0000, when interpreted as an IEEE-754 pattern, is in decimal:
+Hex C0FF0000, when interpreted as an IEEE-754 pattern, is in decimal: -7.96875
 
 
  'The UGLY' — Hard Problems
@@ -109,6 +109,7 @@ The smallest nonezero positive IEEE-754 single precision float, in hex is:
 Try this for a challenge, a puzzle, or the experience:
 
 Hex C059000000000000, when iterpreted as a 64-bit IEEE-754 pattern, is in decimal:
+
 
 
 
