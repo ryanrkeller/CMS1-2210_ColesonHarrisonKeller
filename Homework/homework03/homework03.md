@@ -100,7 +100,7 @@ The largest nonzero negative IEEE-754 single precision float, in hex is: 0xFF7FF
 
 The smallest nonezero positive IEEE-754 single precision float, in hex is: 0x00000001
 
--5.125 X 290 as a 32-bit float, in hex is:
+-5.125 X 290 as a 32-bit float, in hex is: 0xC4B9C800
 
 2-138 as a 32-bit float, in hex is: 0x00000800
 
@@ -109,6 +109,7 @@ The smallest nonezero positive IEEE-754 single precision float, in hex is: 0x000
 Try this for a challenge, a puzzle, or the experience: 
 
 Hex C059000000000000, when iterpreted as a 64-bit IEEE-754 pattern, is in decimal: 
+
 
 
 
