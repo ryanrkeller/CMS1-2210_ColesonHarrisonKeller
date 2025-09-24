@@ -15,21 +15,21 @@ Decimal -11 encoded in 16-bits (signed) is in hex:
 
 Decimal -32717 encoded in 16-bits (signed) is in hex:
 
-Hex FAC3 in binary is:
+Hex FAC3 in binary is: 1111 1010 1100 0011
 
-Hex FAC3 as an unsigned decimal is:
+Hex FAC3 as an unsigned decimal is: 64195
 
-Hex FAC3 as a signed decimal is:
+Hex FAC3 as a signed decimal is: -1341
 
-Hex 0064 in binary is: 
+Hex 0064 in binary is: 0000 0000 0110 0100
 
-Hex 0064 as an unsigned decimal is: 
+Hex 0064 as an unsigned decimal is:  100
 
-Hex 0064 as a signed decimal is:
+Hex 0064 as a signed decimal is: 100
 
-Hex 8000 in binary is:
+Hex 8000 in binary is: 1000 0000 0000 0000
 
-Hex 8000 as an unsigned decimal is:
+Hex 8000 as an unsigned decimal is: 32768
 
 Hex 8000 as a signed decimal is: -32,768
 
@@ -71,7 +71,7 @@ The negation of 16-bit word 0xB00F is:
 
 The negation of 16-bit word 0x2232 is:
 
-The negation of 16-bit word 0x8000 is:
+The negation of 16-bit word 0x8000 is:   /.,mnbvcxzsdfghjkl;
 
 The negation of 32-bit word 0xFFF329BA is:
 
@@ -109,6 +109,7 @@ The smallest nonezero positive IEEE-754 single precision float, in hex is:
 Try this for a challenge, a puzzle, or the experience:
 
 Hex C059000000000000, when iterpreted as a 64-bit IEEE-754 pattern, is in decimal:
+
 
 
 
