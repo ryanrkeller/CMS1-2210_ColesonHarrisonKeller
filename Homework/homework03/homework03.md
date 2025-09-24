@@ -88,27 +88,28 @@ These problems are difficult and will require you to do some research to get the
 NOTE: float means floating point, a number with a decimal point in it like 123.45. The terms 'single precision float' and '32-bit float' are treated as the same thing.
 
 
-96.03125 as a 32-bit float, in hex is:
+96.03125 as a 32-bit float, in hex is: 
 
 -16777216 as a 32-bit float, in hex is:
 
 The largest finite IEEE-754 single precision float, in hex is:
 
-The smallest finite IEEE-754 single precision float, in hex is:
+The smallest finite IEEE-754 single precision float, in hex is: 0x7F7FFFFF
 
-The largest nonzero negative IEEE-754 single precision float, in hex is:
+The largest nonzero negative IEEE-754 single precision float, in hex is: 0xFF7FFFFF
 
-The smallest nonezero positive IEEE-754 single precision float, in hex is:
+The smallest nonezero positive IEEE-754 single precision float, in hex is: 0x00000001
 
 -5.125 X 290 as a 32-bit float, in hex is:
 
-2-138 as a 32-bit float, in hex is:
+2-138 as a 32-bit float, in hex is: 0x00000800
 
-1.5 X 2-143 as a 32-bit float, in hex is:
+1.5 X 2-143 as a 32-bit float, in hex is: 0x00000060
 
-Try this for a challenge, a puzzle, or the experience:
+Try this for a challenge, a puzzle, or the experience: 
 
-Hex C059000000000000, when iterpreted as a 64-bit IEEE-754 pattern, is in decimal:
+Hex C059000000000000, when iterpreted as a 64-bit IEEE-754 pattern, is in decimal: 
+
 
 
 
