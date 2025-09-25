@@ -1,19 +1,19 @@
 'The GOOD' — Easy Problems
 The problems in this section are very straightforward and should not be hard ~ you'll get good practice here!
 
-Binary 10111101 in hex is: 
+Binary 10111101 in hex is: 189
 
-Binary 1011110100000001 as an unsigned decimal is:
+Binary 1011110100000001 as an unsigned decimal is: 48385
 
-Binary 1011110100000001 as a signed decimal is:
+Binary 1011110100000001 as a signed decimal is: -17151
 
-Decimal 8000 encoded in 16-bits (unsigned) is in hex:
+Decimal 8000 encoded in 16-bits (unsigned) is in hex: 1F40
 
-Decimal 8000 encoded in 16-bits (signed) is in hex:
+Decimal 8000 encoded in 16-bits (signed) is in hex: 1F40
 
-Decimal -11 encoded in 16-bits (signed) is in hex:
+Decimal -11 encoded in 16-bits (signed) is in hex: FFF5
 
-Decimal -32717 encoded in 16-bits (signed) is in hex:
+Decimal -32717 encoded in 16-bits (signed) is in hex: 8033
 
 Hex FAC3 in binary is: 1111 1010 1100 0011
 
@@ -51,15 +51,15 @@ The 16-bit operation 0x3511 + 0x4FFC has a overflow (Y or N): N
 These problems give you more to think about with the concepts of number conversion and arithmetic. You will find out about carry, overflow, and negation using two's compliment. 
 
 
-The modular sum of 16-bit hex values 6159 + F702 is:
+The modular sum of 16-bit hex values 6159 + F702 is: 585B
 
-The saturated sum of 16-bit hex values 6159 + F702 is:
+The saturated sum of 16-bit hex values 6159 + F702 is: FFFF
 
-The 16-bit operation 0x6159 + 0xF702 has a carry (Y or N):
+The 16-bit operation 0x6159 + 0xF702 has a carry (Y or N): Y
 
-The 16-bit operation 0x6159 + 0xF702 has a overflows (Y or N):
+The 16-bit operation 0x6159 + 0xF702 has a overflows (Y or N): N
 
-The modular sum of 16-bit hex values EEEE + C00C is:
+The modular sum of 16-bit hex values EEEE + C00C is: AEFA
 
 The saturated sum of 16-bit hex values EEEE + C00C is: 32767
 
@@ -88,11 +88,11 @@ These problems are difficult and will require you to do some research to get the
 NOTE: float means floating point, a number with a decimal point in it like 123.45. The terms 'single precision float' and '32-bit float' are treated as the same thing.
 
 
-96.03125 as a 32-bit float, in hex is: 
+96.03125 as a 32-bit float, in hex is: 42C01000
 
--16777216 as a 32-bit float, in hex is:
+-16777216 as a 32-bit float, in hex is: CB800000
 
-The largest finite IEEE-754 single precision float, in hex is:
+The largest finite IEEE-754 single precision float, in hex is: 7F7FFFFF
 
 The smallest finite IEEE-754 single precision float, in hex is: 0x7F7FFFFF
 
