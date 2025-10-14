@@ -1,0 +1,13 @@
+00000000: C0000014  ; JMP start 
+00000004: 00000000  ; Data: count = 0
+00000008: 00000100  ; Data: limit = 256 
+0000000C: 00000008  ; Data: port_address = 8 
+00000010: 00000001  ; Data: one = 1
+00000014: 00000004  ; start: LOAD [count]
+00000018: 3000000C  ; WRITE [port_addr] 
+0000001C: 40000010  ; ADD [one] 
+00000020: 10000004  ; STORE [count] 
+00000024: 00000004  ; LOAD [count] 
+00000028: 50000008  ; SUB [limit]
+0000002C: E0000014  ; JLZ start 
+00000030: C0000030  ; end: JMP end 
