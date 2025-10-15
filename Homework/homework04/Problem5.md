@@ -9,5 +9,4 @@ start:     LOAD    [count]
            STORE   [count]
            SUB     [limit]
            JLZ     start
-           JMP     end   
 end:       JMP     end
