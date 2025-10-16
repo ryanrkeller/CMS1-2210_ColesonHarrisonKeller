@@ -1,0 +1,18 @@
+a. 
+r = r AND 0xAAAAAAAA
+
+b. 
+r = r OR 0x00000007
+
+c. 
+r = r AND 0x00000007
+
+d. 
+r = r OR 0xFFFFFFFF
+
+e. 
+r = r XOR 0xC0000000
+
+f.
+r = r AND 0xFFFFFFF8
+
