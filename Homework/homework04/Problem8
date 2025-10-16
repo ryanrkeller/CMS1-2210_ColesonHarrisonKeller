@@ -1,0 +1,10 @@
+        JMP     start
+        num1:   0
+        num2:   0
+start:  store   num1
+        read    0x30AA
+        store   num2 
+        load    num1 
+        write   0x30AA
+        load    num2
+end     JMP     end
