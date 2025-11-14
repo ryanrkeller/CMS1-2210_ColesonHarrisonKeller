@@ -1,0 +1,56 @@
+
+
+Evaluation Criteria ~ homework05
+CMSI 2210 Section 01 Fall 2025
+=================================
+
+dec2bin
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+dec2hex
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   32-bit tests   [ 5 pts.]      5 points earned
+   64-bit tests   [ 5 pts.]      5 points earned
+timesTables
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+holdit
+   compiles       [ 5 pts.]      5 points earned
+   runs tests     [15 pts.]     15 points earned
+wordcount
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs tests     [10 pts.]     10 points earned
+
+ Total possible ~ 100 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 100/100 which is 100.00% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Perfect score!  Nice job.
+
+You might consider the use of newlines to prevent relying on the word wrap
+   in the terminal to make the text readable.  Your holdit program puts
+   all of the explanation on one line; it will word wrap in the terminal
+   but not if I re-direct the output to a file.
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   Homework01  100.00% of  5 points =  5.00 points
+   Homework02  100.00% of  5 points =  5.00 points
+   Homework03  106.22% of  5 points =  5.31 points
+   Homework04   86.00% of  5 points =  4.78 points
+   Homework05  100.00% of 10 points = 10.00 points
+                               total: 30.09 out of 30.00 = 100.30%
+                                which is an A-plus
+
+Keep up the good work, only one more to go!
