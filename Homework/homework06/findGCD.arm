@@ -1,0 +1,153 @@
+/*
+ * Sources:
+ * https://stackoverflow.com/questions/19309749/nasm-assembly-convert-input-to-integer
+ * https://armasm.com/docs/arithmetic/itoa/
+ * https://www.codalogic.com/blog/2022/10/15/Experiments-with-Aarch64-Assembler-Part-6
+ */
+
+    .data
+question1:    .asciz "Finding the GCD of two numbers. Type the first number: "
+question2:    .asciz "Type the second number: "
+number1:    .space 16
+number2:    .space 16
+output:     .space 16
+
+    .text
+    .global _main
+    .align 2
+
+_main:
+    MOV     X0, #1
+    adrp    X1, question1@PAGE
+    add     X1, X1, question1@PAGEOFF
+    MOV     X2, #55
+    BL      print_string
+    MOV     X0, #0
+    adrp    X1, number1@PAGE
+    add     X1, X1, number1@PAGEOFF
+    MOV     X2, #16
+    BL      read_line
+    adrp    X0, number1@PAGE
+    add     X0, X0, number1@PAGEOFF
+    BL      atoi
+    MOV     X19, X0
+
+    MOV     X0, #1
+    adrp    X1, question2@PAGE
+    add     X1, X1, question2@PAGEOFF
+    MOV     X2, #24
+    BL      print_string
+    MOV     X0, #0
+    adrp    X1, number2@PAGE
+    add     X1, X1, number2@PAGEOFF
+    MOV     X2, #16
+    BL      read_line
+    adrp    X0, number2@PAGE
+    add     X0, X0, number2@PAGEOFF
+    BL      atoi
+    MOV     X20, X0 
+
+gcd:
+    CMP     X20, #0
+    BEQ     gcd_end
+    MOV     X21, X20
+    UDIV    X22, X19, X20
+    MUL     X22, X22, X20
+    SUB     X20, X19, X22
+    MOV     X19, X21
+    B       gcd
+
+gcd_end:
+    MOV     X0, X19
+    adrp    X1, output@PAGE
+    add     X1, X1, output@PAGEOFF
+    BL      itoa
+
+    adrp    X0, output@PAGE
+    add     X0, X0, output@PAGEOFF
+    BL      print_string_len
+
+    MOV     X0, #0
+    MOV     X16, #1
+    SVC     #0
+
+print_string:
+    MOV     X16, #4
+    SVC     #0
+    RET
+
+read_line:
+    MOV     X16, #3
+    SVC     #0
+    RET
+
+print_string_len:
+    MOV     X1, X0
+    MOV     X2, #0
+    MOV     X3, #1000
+strlen_loop:
+    LDRB    W4, [X0], #1
+    CBZ     X4, strlen_done
+    ADD     X2, X2, #1
+    SUBS    X3, X3, #1
+    B.NE    strlen_loop
+strlen_done:
+    MOV     X0, #1
+    MOV     X1, X1
+    MOV     X2, X2
+    MOV     X16, #4
+    SVC     #0
+    RET
+
+atoi:
+    MOV     X1, X0
+    MOV     X0, #0
+atoi_loop:
+    LDRB    W2, [X1]
+    CMP     W2, #'0'
+    BLT     atoi_done
+    CMP     W2, #'9'
+    BGT     atoi_done
+    SUB     W2, W2, #'0'
+    MOV     X3, X0
+    MOV     X0, #10
+    MUL     X0, X3, X0
+    ADD     X0, X0, X2
+    ADD     X1, X1, #1
+    B       atoi_loop
+atoi_done:
+    RET
+
+itoa:
+    MOV     X2, X0
+    MOV     X3, X1
+    MOV     X4, #10
+
+    // Count digits
+    MOV     X5, X2
+    MOV     X6, #0
+itoa_count_loop:
+    CMP     X5, #0
+    BEQ     itoa_count_done
+    UDIV    X5, X5, X4
+    ADD     X6, X6, #1
+    B       itoa_count_loop
+itoa_count_done:
+    CMP     X6, #0
+    BNE     itoa_convert
+    MOV     X6, #1
+
+itoa_convert:
+    ADD     X3, X3, X6
+itoa_loop:
+    SUBS    X6, X6, #1
+    BLT     itoa_done
+    UDIV    X8, X2, X4
+    MSUB    X9, X8, X4, X2
+    ADD     X9, X9, #'0'
+    SUB     X3, X3, #1
+    STRB    W9, [X3]
+    MOV     X2, X8
+    B       itoa_loop
+itoa_done:
+    RET
