@@ -1,0 +1,17 @@
+    .global _findGCD
+    .align 2
+
+_findGCD:
+    CMP     X1, #0
+    BEQ     done
+
+    UDIV    X2, X0, X1
+    MSUB    X3, X2, X1, X0
+
+    MOV     X0, X1
+    MOV     X1, X3
+    
+    B       _findGCD
+
+done:
+    RET
