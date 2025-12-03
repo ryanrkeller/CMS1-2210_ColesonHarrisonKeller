@@ -1,3 +1,7 @@
+/* By Michael.
+ * Source:
+ * https://stackoverflow.com/questions/51189293/how-can-i-call-a-function-written-in-arm-assembly-within-c-code
+ */
     .global _findGCD
     .align 2
 
