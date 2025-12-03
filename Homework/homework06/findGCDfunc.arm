@@ -1,6 +1,11 @@
 /* By Michael.
  * Source:
  * https://stackoverflow.com/questions/51189293/how-can-i-call-a-function-written-in-arm-assembly-within-c-code
+ * To compile I used 
+ * as -o findGCDfunc.o findGCDfunc.arm
+ * gcc -o gcdFinder gcdFinder.c findGCDfunc.o
+ * ./gcdFinder
+ * ./gcdFinder
  */
     .global _findGCD
     .align 2
