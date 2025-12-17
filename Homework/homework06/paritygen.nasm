@@ -1,12 +1,13 @@
         global  _main
         extern  _printf
-        
+
         section .text
 _main:
-        mov     edx, 0  ;change this number to whatever for it to print the right thing
+;        mov     edx, 0  ;change this number to whatever for it to print the right thing
+        mov     edx, 123457
         mov     eax, 0
         mov     ecx, 8
-        
+
 count:
         dec     ecx
         cmp     ecx, 0
